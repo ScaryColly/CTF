@@ -12,32 +12,27 @@ export const getClasses = (theme: Theme) => ({
   headline: css({
     textAlign: "center",
     paddingTop: "2vh",
-    marginTop: "1vh",
     animation: `${fadeIn} 2s ease`,
   }),
   text: css({
     textAlign: "center",
     marginTop: "1vh",
-    animation: `${fadeIn} 2s ease`,
-    animationDelay: "3s",
+    animation: `${fadeIn} 12s ease`,
   }),
   textTwo: css({
     textAlign: "center",
     marginTop: "1vh",
-    animation: `${fadeIn} 2s ease`,
-    animationDelay: "6s",
+    animation: `${fadeIn} 22s ease`,
   }),
   textThree: css({
     textAlign: "center",
     marginTop: "1vh",
-    animation: `${fadeIn} 2s ease`,
-    animationDelay: "9s",
+    animation: `${fadeIn} 32s ease`,
   }),
   textFour: css({
     textAlign: "center",
     marginTop: "1vh",
-    animation: `${fadeIn} 2s ease`,
-    animationDelay: "12s",
+    animation: `${fadeIn} 42s ease`,
   }),
 });
 
@@ -57,7 +52,7 @@ export const fadeIn = keyframes`
 0%{
   opacity: 0;
 }
-100{
+100%{
   opacity: 1;
 }
 `;
