@@ -3,7 +3,7 @@ import { css } from "@emotion/css";
 
 export const getClasses = (theme: Theme) => ({
   container: css({
-    background: "#E1B46B",
+    background: "#93B6D9",
     height: "100vh",
     display: "flex",
     justifyContent: "center",
@@ -12,6 +12,8 @@ export const getClasses = (theme: Theme) => ({
     color: theme.palette.common.white,
   }),
   image: css({
-    height: "80%",
+    height: "40%",
+    marginTop: "5vh",
+    width: "80vh",
   }),
 });

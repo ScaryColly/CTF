@@ -1,18 +1,18 @@
 import { Box, Typography, useTheme } from "@mui/material";
 import { FC } from "react";
 import { Image } from "../../components/Image";
-import army from "../../assets/images/army.png";
+import tank from "../../assets/images/tank.jpeg";
 import { getClasses } from "./style";
-import { LEVEL_FIVE_TEXT } from "./constants";
+import { LEVEL_SIX_TEXT } from "./constants";
 
-export const LevelFive: FC = () => {
+export const LevelSix: FC = () => {
   const theme = useTheme();
   const classes = getClasses(theme);
 
   return (
     <Box className={classes.container}>
-      <Typography variant='h2'>{LEVEL_FIVE_TEXT}</Typography>
-      <Image className={classes.image} src={army} alt='army' />
+      <Typography variant='h2'>{LEVEL_SIX_TEXT}</Typography>
+      <Image className={classes.image} src={tank} alt='tank' />
     </Box>
   );
 };
