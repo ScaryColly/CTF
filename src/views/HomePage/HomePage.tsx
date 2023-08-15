@@ -20,12 +20,9 @@ export const HomePage: FC = () => {
 
   useEffect(() => {
     if (timeLeft === 0) {
-      console.log("TIME LEFT IS 0");
       setTimeLeft(null);
       setIsAnimationPlaying(false);
     }
-
-    console.log(timeLeft);
 
     if (!timeLeft) return;
 
