@@ -4,6 +4,8 @@ import { HomePage } from "../../views/HomePage/HomePage";
 import { LevelOne } from "../../views/LevelOne";
 import { LevelTwo } from "../../views/LevelTwo";
 import { LevelThree } from "../../views/LevelThree";
+import { LevelFour } from "../../views/LevelFour";
+import { LevelFive } from "../../views/LevelFive";
 
 export const PAGES: Dictionary<Page> = {
   home: {
@@ -21,5 +23,13 @@ export const PAGES: Dictionary<Page> = {
   levelThree: {
     path: "/july31",
     element: () => <LevelThree />,
+  },
+  levelFour: {
+    path: "/2",
+    element: () => <LevelFour />,
+  },
+  levelFive: {
+    path: "/jupiter",
+    element: () => <LevelFive />,
   },
 };
