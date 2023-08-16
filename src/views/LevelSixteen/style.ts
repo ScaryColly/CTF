@@ -15,8 +15,4 @@ export const getClasses = (theme: Theme) => ({
   image: css({
     height: "80%",
   }),
-  text: css({
-    marginTop: '2vh',
-    textAlign: 'center'
-  })
 });

@@ -10,6 +10,7 @@ import { LevelNine } from "../../views/LevelNine";
 import { LevelOne } from "../../views/LevelOne";
 import { LevelSeven } from "../../views/LevelSeven";
 import { LevelSix } from "../../views/LevelSix";
+import { LevelSixteen } from "../../views/LevelSixteen";
 import { LevelTen } from "../../views/LevelTen";
 import { LevelThirteen } from "../../views/LevelThirteen";
 import { LevelThree } from "../../views/LevelThree";
@@ -82,5 +83,10 @@ export const PAGES: Dictionary<Page> = {
     path: "/fnsekjtrnhe74543fdsdf",
     element: () => <LevelFifteen />,
   },
+  levelSixteen: {
+    path: "/ahiu6y3bdfiujkne534g",
+    element: () => <LevelSixteen />,
+  },
 };
+
 
