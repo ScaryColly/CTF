@@ -3,7 +3,7 @@ import { Theme } from "@mui/material";
 
 export const getClasses = (theme: Theme) => ({
   container: css({
-    background: "#E1B46B",
+    background: "#FDF6EE",
     height: "100vh",
     display: "flex",
     justifyContent: "center",

@@ -1,5 +1,5 @@
-import { Theme } from "@mui/material";
 import { css } from "@emotion/css";
+import { Theme } from "@mui/material";
 
 export const getClasses = (theme: Theme) => ({
   container: css({
@@ -14,4 +14,8 @@ export const getClasses = (theme: Theme) => ({
   image: css({
     height: "80%",
   }),
+  gridContainer: css({
+    width: '80vw',
+    direction: 'ltr'
+  })
 });

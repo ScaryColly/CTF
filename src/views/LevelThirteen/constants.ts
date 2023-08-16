@@ -1,0 +1,1 @@
+export const MICHELANGELO = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/God2-Sistine_Chapel.png/250px-God2-Sistine_Chapel.png' 

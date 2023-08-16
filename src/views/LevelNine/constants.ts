@@ -1,0 +1,1 @@
+export const ENCRYPTED_TEXT = '8NM5H4fprVabwklavBONjinGDFblYX+k+bnZPGn0Z7o='

@@ -13,6 +13,20 @@ export const getClasses = (theme: Theme) => ({
     direction: 'ltr'
   }),
   image: css({
-    height: "80%",
+    width: "60%",
+
   }),
+  gridContainer: css({
+    width: '80%',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }),
+  gridItem: css({
+    display: 'flex',
+    justifyContent: 'center'
+  }),
+  text: css({
+    width: '90vw'
+  })
 });

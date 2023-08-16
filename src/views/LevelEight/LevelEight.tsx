@@ -1,7 +1,6 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Grid, useTheme } from "@mui/material";
 import { FC } from "react";
-import { Image } from "../../components/Image";
-import army from "../../assets/images/army.png";
+import { STORY_ONE, STORY_TWO } from "./constants";
 import { getClasses } from "./style";
 
 export const LevelEight: FC = () => {
@@ -10,8 +9,10 @@ export const LevelEight: FC = () => {
 
   return (
     <Box className={classes.container}>
-      <Typography variant='h2'>HI</Typography>
-      <Image className={classes.image} src={army} alt='army' />
+      <Grid container className={classes.gridContainer}>
+        <Grid item xs={6}>{STORY_ONE}</Grid>
+        <Grid item xs={6}>{STORY_TWO}</Grid>
+      </Grid>
     </Box>
   );
 };

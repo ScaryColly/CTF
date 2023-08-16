@@ -13,6 +13,6 @@ export const getClasses = (theme: Theme) => ({
     direction: 'ltr'
   }),
   image: css({
-    height: "80%",
+    width: "30vw",
   }),
 });
