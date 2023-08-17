@@ -1,6 +1,7 @@
 import { Dictionary } from "lodash";
 import { HomePage } from "../../views/HomePage/HomePage";
 import { LevelEight } from "../../views/LevelEight";
+import { LevelEighteen } from "../../views/LevelEighteen";
 import { LevelEleven } from "../../views/LevelEleven";
 import { LevelFifteen } from "../../views/LevelFifteen";
 import { LevelFive } from "../../views/LevelFive";
@@ -9,6 +10,7 @@ import { LevelFourteen } from "../../views/LevelFourteen";
 import { LevelNine } from "../../views/LevelNine";
 import { LevelOne } from "../../views/LevelOne";
 import { LevelSeven } from "../../views/LevelSeven";
+import { LevelSeventeen } from "../../views/LevelSeventeen";
 import { LevelSix } from "../../views/LevelSix";
 import { LevelSixteen } from "../../views/LevelSixteen";
 import { LevelTen } from "../../views/LevelTen";
@@ -86,6 +88,18 @@ export const PAGES: Dictionary<Page> = {
   levelSixteen: {
     path: "/ahiu6y3bdfiujkne534g",
     element: () => <LevelSixteen />,
+  },
+  levelSeventeen: {
+    path: "/0",
+    element: () => <LevelSeventeen />,
+  },
+  levelEighteen: {
+    path: "/stupid",
+    element: () => <LevelEighteen />,
+  },
+  levelNineteen: {
+    path: "/K",
+    element: () => <LevelEighteen />,
   },
 };
 
