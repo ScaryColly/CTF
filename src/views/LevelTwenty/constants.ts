@@ -1,0 +1,1 @@
+export const THE_FLAG = 'The Flag Is'

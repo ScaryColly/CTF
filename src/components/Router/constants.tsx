@@ -8,6 +8,7 @@ import { LevelFive } from "../../views/LevelFive";
 import { LevelFour } from "../../views/LevelFour";
 import { LevelFourteen } from "../../views/LevelFourteen";
 import { LevelNine } from "../../views/LevelNine";
+import { LevelNineteen } from "../../views/LevelNineteen";
 import { LevelOne } from "../../views/LevelOne";
 import { LevelSeven } from "../../views/LevelSeven";
 import { LevelSeventeen } from "../../views/LevelSeventeen";
@@ -17,6 +18,8 @@ import { LevelTen } from "../../views/LevelTen";
 import { LevelThirteen } from "../../views/LevelThirteen";
 import { LevelThree } from "../../views/LevelThree";
 import { LevelTwelve } from "../../views/LevelTwelve";
+import { LevelTwenty } from "../../views/LevelTwenty";
+import { LevelTwentyOne } from "../../views/LevelTwentyOne";
 import { LevelTwo } from "../../views/LevelTwo";
 import { Page } from "./types";
 
@@ -99,7 +102,19 @@ export const PAGES: Dictionary<Page> = {
   },
   levelNineteen: {
     path: "/K",
-    element: () => <LevelEighteen />,
+    element: () => <LevelNineteen />,
+  },
+  levelTwenty: {
+    path: "/x^2y^3",
+    element: () => <LevelTwenty />,
+  },
+  levelTwentyOne: {
+    path: "/raised",
+    element: () => <LevelTwentyOne />,
+  },
+  levelTwentyTwo: {
+    path: "/something",
+    element: () => <LevelTwentyOne />,
   },
 };
 
