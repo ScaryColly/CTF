@@ -4,7 +4,7 @@ import army from "../../assets/images/army.png";
 import { Image } from "../../components/Image";
 import { getClasses } from "./style";
 
-export const LevelFive: FC = () => {
+export const LevelTwentyTwo: FC = () => {
   const theme = useTheme();
   const classes = getClasses(theme);
 

@@ -17,7 +17,7 @@ export const LevelFifteen: FC = () => {
   return (
     <Box className={classes.container}>
       <TextField inputProps={{className: classes.textField}} {...register('riddleText')} label="level" />
-      {doesHasTheAnswer() && <Typography className={classes.text} variant="h3">{ANSWER_TEXT}</Typography>}
+      {doesHasTheAnswer() &&<Typography className={classes.text} variant="h3">{ANSWER_TEXT}</Typography>}
     </Box>
   );
 };

@@ -20,6 +20,7 @@ import { LevelThree } from "../../views/LevelThree";
 import { LevelTwelve } from "../../views/LevelTwelve";
 import { LevelTwenty } from "../../views/LevelTwenty";
 import { LevelTwentyOne } from "../../views/LevelTwentyOne";
+import { LevelTwentyTwo } from "../../views/LevelTwentyTwo/LevelTwentyTwo";
 import { LevelTwo } from "../../views/LevelTwo";
 import { Page } from "./types";
 
@@ -114,7 +115,7 @@ export const PAGES: Dictionary<Page> = {
   },
   levelTwentyTwo: {
     path: "/something",
-    element: () => <LevelTwentyOne />,
+    element: () => <LevelTwentyTwo />,
   },
 };
 
