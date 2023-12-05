@@ -64,5 +64,6 @@ Thumbs.db
 #Environment
 .env
 .local.env
+.vscode
 config.js
 
