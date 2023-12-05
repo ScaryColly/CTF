@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.82ff6a67.css","mappings":"AAAA,KAEE,4BAAgC,CADhC,QAAS,CAET,gBAAiB,CACjB,eACF","sources":["App.css"],"sourcesContent":["body {\r\n  margin: 0;\r\n  font-family: \"Heebo\", sans-serif;\r\n  min-height: 100vh;\r\n  overflow: hidden;\r\n}\r\n"],"names":[],"sourceRoot":""}
