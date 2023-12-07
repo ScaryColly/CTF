@@ -1,4 +1,4 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Stack, Typography, useTheme } from "@mui/material";
 import { FC } from "react";
 import { getClasses } from "./style";
 import { LEVEL_THREE_TEXT } from "./constants";
@@ -10,9 +10,11 @@ export const LevelThree: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Box className={classes.container}>
-      <Typography variant='h2'>{LEVEL_THREE_TEXT}</Typography>
-      <Image className={classes.image} src={fibonacci} alt='' />
-    </Box>
+    <Stack rowGap={2} className={classes.container}>
+      <Typography className={classes.headline} variant="h3">
+        {LEVEL_THREE_TEXT}
+      </Typography>
+      <Image className={classes.image} src={fibonacci} alt="fibonacci" />
+    </Stack>
   );
 };

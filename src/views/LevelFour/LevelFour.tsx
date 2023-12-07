@@ -1,4 +1,4 @@
-import { Box, useTheme } from "@mui/material";
+import { Stack, useTheme } from "@mui/material";
 import { FC } from "react";
 import { getClasses } from "./style";
 import { Image } from "../../components/Image";
@@ -9,8 +9,8 @@ export const LevelFour: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Box className={classes.container}>
-      <Image className={classes.image} src={solarSystem} alt='solar system' />
-    </Box>
+    <Stack className={classes.container}>
+      <Image className={classes.image} src={solarSystem} alt="solar system" />
+    </Stack>
   );
 };
