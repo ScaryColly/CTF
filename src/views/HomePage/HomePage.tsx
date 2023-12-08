@@ -10,6 +10,7 @@ import {
   RULES,
 } from "./constants";
 import { CandleAnimation } from "../../components/CandleAnimation";
+import KissAnimation from "./HugAnimation";
 
 export const HomePage: FC = () => {
   const theme = useTheme();
@@ -38,19 +39,20 @@ export const HomePage: FC = () => {
       {isAnimationPlaying && <CandleAnimation />}
       {!isAnimationPlaying && (
         <>
-          <Typography className={classes.headline} variant='h2'>
+          <KissAnimation />
+          <Typography className={classes.headline} variant="h2">
             {HAPPY_BIRTHDAY}
           </Typography>
-          <Typography variant='h5' className={classes.text}>
+          <Typography variant="h5" className={classes.text}>
             {FINISH_ERA}
           </Typography>
-          <Typography variant='h5' className={classes.textTwo}>
+          <Typography variant="h5" className={classes.textTwo}>
             {ASK}
           </Typography>
-          <Typography variant='h5' className={classes.textThree}>
+          <Typography variant="h5" className={classes.textThree}>
             {`${RULES} ${LEVEL_ONE}`}
           </Typography>
-          <Typography variant='h5' className={classes.textFour}>
+          <Typography variant="h5" className={classes.textFour}>
             {CREDIT}
           </Typography>
         </>
