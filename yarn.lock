@@ -2368,6 +2368,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-kawaii@^0.17.3":
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/@types/react-kawaii/-/react-kawaii-0.17.3.tgz#0de33b34d8b4a4bbd49bfb0c22aeb09b5f61a321"
+  integrity sha512-Wt+8x8oKbJN0n4pFcIT0Tgu/MocDUp0D8RbDq4CcQPXVypWghA5EhGoHX+ugjl5axpOHk1WVOdymgpPH4uiXQA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-transition-group@^4.4.6":
   version "4.4.6"
   resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.6.tgz#18187bcda5281f8e10dfc48f0943e2fdf4f75e2e"
@@ -8058,6 +8065,13 @@ react-is@^18.0.0, react-is@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
+
+react-kawaii@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/react-kawaii/-/react-kawaii-0.18.0.tgz#bc95c6b1f76acfcaca83fcc6a4790e10beb821db"
+  integrity sha512-/+WLnb2sNyqpfE8wurxZRtx2NkypZWHU6XMphj0yo2nvUFm1BX7MD7o+L+gAwkD7UJvfBDtzFP9a+CmIXkge3A==
+  dependencies:
+    prop-types "^15.6.2"
 
 react-query@^3.39.3:
   version "3.39.3"
