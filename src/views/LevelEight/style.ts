@@ -12,5 +12,6 @@ export const getClasses = (theme: Theme) => ({
   }),
   gridContainer: css({
     direction: "ltr",
+    padding: theme.spacing(2),
   }),
 });

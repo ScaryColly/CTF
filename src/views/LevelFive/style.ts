@@ -7,7 +7,6 @@ export const getClasses = (theme: Theme) => ({
     height: "100dvh",
     alignItems: "center",
     color: theme.palette.common.white,
-    direction: "ltr",
     padding: theme.spacing(2),
   }),
   image: css({

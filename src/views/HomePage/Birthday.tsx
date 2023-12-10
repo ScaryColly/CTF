@@ -25,10 +25,10 @@ export const Birthday: FC = () => {
       <Typography variant="h5" className={classes.textTwo}>
         {ASK}
       </Typography>
-      <Typography variant="h5" className={classes.textThree}>
+      <Typography variant="h6" className={classes.textThree}>
         {`${RULES} ${LEVEL_ONE}`}
       </Typography>
-      <Typography variant="h5" className={classes.textFour}>
+      <Typography variant="h6" className={classes.textFour}>
         {CREDIT}
       </Typography>
     </Box>

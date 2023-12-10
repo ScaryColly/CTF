@@ -1,1 +1,1 @@
-export const LEVEL_FIVE_TEXT = "So many wars to one person...";
+export const LEVEL_FIVE_TEXT = "כה הרבה מלחמות לאדם אחד...";

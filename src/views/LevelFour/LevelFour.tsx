@@ -9,7 +9,7 @@ export const LevelFour: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Stack className={classes.container}>
+    <Stack rowGap={2} className={classes.container}>
       <Image className={classes.image} src={solarSystem} alt="solar system" />
     </Stack>
   );

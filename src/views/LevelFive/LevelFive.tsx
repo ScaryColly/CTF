@@ -11,7 +11,7 @@ export const LevelFive: FC = () => {
 
   return (
     <Stack rowGap={2} className={classes.container}>
-      <Typography className={classes.headline} variant="h3">
+      <Typography className={classes.headline} variant="h4">
         {LEVEL_FIVE_TEXT}
       </Typography>
       <Image className={classes.image} src={army} alt="army" />
