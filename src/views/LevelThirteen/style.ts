@@ -5,14 +5,12 @@ export const getClasses = (theme: Theme) => ({
   container: css({
     background: "#E1B46B",
     height: "100vh",
-    display: "flex",
-    justifyContent: "center",
     alignItems: "center",
-    flexDirection: "column",
+    justifyContent: "center",
     color: theme.palette.common.white,
-    direction: 'ltr'
+    direction: "ltr",
   }),
   image: css({
-    width: "30vw",
+    width: "22rem",
   }),
 });
