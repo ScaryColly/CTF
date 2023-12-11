@@ -8,7 +8,7 @@ export const LevelTwentyTwo: FC = () => {
 
   return (
     <Stack className={classes.container}>
-      <Link href="https://www.youtube.com/watch?v=2WN0T-Ee3q4">
+      <Link target="_blank" href="https://www.youtube.com/watch?v=2WN0T-Ee3q4">
         Never Ending Story
       </Link>
     </Stack>

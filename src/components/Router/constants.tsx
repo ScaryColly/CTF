@@ -25,6 +25,7 @@ import { Page } from "./types";
 import { LevelTwentyTwo } from "../../views/LevelTwentyTwo";
 import { LevelTwentyThree } from "../../views/LevelTwentyThree";
 import { LevelTwentyFour } from "../../views/LevelTwentyFour";
+import { LevelTwentyFive } from "../../views/LevelTwentyFive";
 
 export const PAGES: Dictionary<Page> = {
   home: {
@@ -126,5 +127,9 @@ export const PAGES: Dictionary<Page> = {
   levelTwentyFour: {
     path: "/bed",
     element: () => <LevelTwentyFour />,
+  },
+  levelTwentyFive: {
+    path: "/07/11/2019",
+    element: () => <LevelTwentyFive />,
   },
 };

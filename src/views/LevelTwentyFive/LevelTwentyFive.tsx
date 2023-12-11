@@ -4,7 +4,7 @@ import { getClasses } from "./style";
 import { Image } from "../../components/Image";
 import takeMeBack from "../../assets/images/take.png";
 
-export const LevelTwentyFour: FC = () => {
+export const LevelTwentyFive: FC = () => {
   const theme = useTheme();
   const classes = getClasses(theme);
 
@@ -25,5 +25,3 @@ export const LevelTwentyFour: FC = () => {
     </Stack>
   );
 };
-
-//07/11/2019
