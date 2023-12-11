@@ -3,7 +3,7 @@ import { Theme } from "@mui/material";
 
 export const getClasses = (theme: Theme) => ({
   container: css({
-    background: "#94d2bd",
+    background: "#441E7F",
     height: "100vh",
     justifyContent: "center",
     alignItems: "center",
@@ -11,6 +11,9 @@ export const getClasses = (theme: Theme) => ({
     direction: "ltr",
   }),
   image: css({
-    height: "80%",
+    width: "20rem",
+  }),
+  link: css({
+    color: theme.palette.common.white,
   }),
 });
