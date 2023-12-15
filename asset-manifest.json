@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CTF/static/css/main.82ff6a67.css",
-    "main.js": "/CTF/static/js/main.86509894.js",
-    "static/js/29.eb175cd1.chunk.js": "/CTF/static/js/29.eb175cd1.chunk.js",
-    "static/js/247.fddfef16.chunk.js": "/CTF/static/js/247.fddfef16.chunk.js",
+    "main.css": "/CTF/static/css/main.2d1706f3.css",
+    "main.js": "/CTF/static/js/main.ff30df00.js",
+    "static/js/652.e3d985f5.chunk.js": "/CTF/static/js/652.e3d985f5.chunk.js",
     "static/media/tank.jpeg": "/CTF/static/media/tank.0cb68771d5e25eb37dea.jpeg",
     "static/media/songs.png": "/CTF/static/media/songs.fcb1f094c4843e77fc11.png",
     "static/media/math.png": "/CTF/static/media/math.25ceaa7259bf28a2f477.png",
     "static/media/beatles.png": "/CTF/static/media/beatles.3972dfdcfb7a9fd53054.png",
     "static/media/wavingFish.png": "/CTF/static/media/wavingFish.ba82f5dea8cae12272af.png",
     "static/media/bottle.png": "/CTF/static/media/bottle.134416cd4901d49e77c9.png",
+    "static/media/take.png": "/CTF/static/media/take.b5a39dbecdb1a8f1cd9b.png",
     "static/media/allYouNeedIs.png": "/CTF/static/media/allYouNeedIs.65d9a5d588469cfe1eaf.png",
     "static/media/bug.png": "/CTF/static/media/bug.8e1e80a33a4cf7449dda.png",
     "static/media/solarSystem.png": "/CTF/static/media/solarSystem.1045f6e54d0bcd22304c.png",
@@ -19,13 +19,12 @@
     "static/media/hamsa.webp": "/CTF/static/media/hamsa.7e025516a59da52a130a.webp",
     "static/media/fibonacci.png": "/CTF/static/media/fibonacci.87298999cbf250c9c54a.png",
     "index.html": "/CTF/index.html",
-    "main.82ff6a67.css.map": "/CTF/static/css/main.82ff6a67.css.map",
-    "main.86509894.js.map": "/CTF/static/js/main.86509894.js.map",
-    "29.eb175cd1.chunk.js.map": "/CTF/static/js/29.eb175cd1.chunk.js.map",
-    "247.fddfef16.chunk.js.map": "/CTF/static/js/247.fddfef16.chunk.js.map"
+    "main.2d1706f3.css.map": "/CTF/static/css/main.2d1706f3.css.map",
+    "main.ff30df00.js.map": "/CTF/static/js/main.ff30df00.js.map",
+    "652.e3d985f5.chunk.js.map": "/CTF/static/js/652.e3d985f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82ff6a67.css",
-    "static/js/main.86509894.js"
+    "static/css/main.2d1706f3.css",
+    "static/js/main.ff30df00.js"
   ]
 }
