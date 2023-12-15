@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/CTF/static/css/main.2d1706f3.css",
-    "main.js": "/CTF/static/js/main.ff30df00.js",
-    "static/js/652.e3d985f5.chunk.js": "/CTF/static/js/652.e3d985f5.chunk.js",
+    "main.js": "/CTF/static/js/main.e7c93710.js",
     "static/media/tank.jpeg": "/CTF/static/media/tank.0cb68771d5e25eb37dea.jpeg",
     "static/media/songs.png": "/CTF/static/media/songs.fcb1f094c4843e77fc11.png",
     "static/media/math.png": "/CTF/static/media/math.25ceaa7259bf28a2f477.png",
@@ -20,11 +19,10 @@
     "static/media/fibonacci.png": "/CTF/static/media/fibonacci.87298999cbf250c9c54a.png",
     "index.html": "/CTF/index.html",
     "main.2d1706f3.css.map": "/CTF/static/css/main.2d1706f3.css.map",
-    "main.ff30df00.js.map": "/CTF/static/js/main.ff30df00.js.map",
-    "652.e3d985f5.chunk.js.map": "/CTF/static/js/652.e3d985f5.chunk.js.map"
+    "main.e7c93710.js.map": "/CTF/static/js/main.e7c93710.js.map"
   },
   "entrypoints": [
     "static/css/main.2d1706f3.css",
-    "static/js/main.ff30df00.js"
+    "static/js/main.e7c93710.js"
   ]
 }
