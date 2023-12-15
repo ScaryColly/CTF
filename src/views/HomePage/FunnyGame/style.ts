@@ -1,5 +1,6 @@
 import { Theme } from "@mui/material";
 import { css } from "@emotion/css";
+import { isMobile } from "react-device-detect";
 
 export const getClasses = (theme: Theme, color: string) => ({
   container: css({
@@ -20,6 +21,11 @@ export const getClasses = (theme: Theme, color: string) => ({
     padding: theme.spacing(2),
     color: theme.palette.common.black,
     backgroundColor: color,
+    width: isMobile ? "100%" : "10rem",
+  }),
+  questionContainer: css({
     width: "100%",
+    alignItems: "center",
+    justifyContent: "center",
   }),
 });

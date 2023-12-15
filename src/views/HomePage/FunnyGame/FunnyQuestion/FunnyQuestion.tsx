@@ -16,9 +16,13 @@ export const FunnyQuestion: FC<FunnyQuestionProps> = ({
   const classes = getClasses(theme, selectedColor);
 
   return (
-    <Stack rowGap={2}>
+    <Stack className={classes.questionContainer} rowGap={2}>
       <Typography>{question}</Typography>
-      <Stack columnGap={3} direction="row">
+      <Stack
+        className={classes.questionContainer}
+        columnGap={3}
+        direction="row"
+      >
         <Button
           disabled={isDisable}
           className={classes.button}
