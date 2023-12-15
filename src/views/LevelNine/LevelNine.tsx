@@ -13,7 +13,7 @@ export const LevelNine: FC = () => {
 
   return (
     <Stack className={classes.container}>
-      <Typography variant="h6">AES</Typography>
+      <Typography variant="h6">glan</Typography>
       <Stack rowGap={2}>
         <Image
           className={classes.image}

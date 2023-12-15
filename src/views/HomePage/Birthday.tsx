@@ -1,4 +1,4 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { IconButton, Stack, Typography, useTheme } from "@mui/material";
 import { FC } from "react";
 import {
   HAPPY_BIRTHDAY,
@@ -9,13 +9,14 @@ import {
   CREDIT,
 } from "./constants";
 import { getClasses } from "./style";
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 
 export const Birthday: FC = () => {
   const theme = useTheme();
   const classes = getClasses(theme);
 
   return (
-    <Box>
+    <Stack>
       <Typography className={classes.headline} variant="h2">
         {HAPPY_BIRTHDAY}
       </Typography>
@@ -31,6 +32,16 @@ export const Birthday: FC = () => {
       <Typography variant="h6" className={classes.textFour}>
         {CREDIT}
       </Typography>
-    </Box>
+      <IconButton
+        onClick={() =>
+          navigator.clipboard.writeText(
+            "https://scarycolly.github.io/CTF/#/level1"
+          )
+        }
+        color="primary"
+      >
+        <ContentCopyIcon />
+      </IconButton>
+    </Stack>
   );
 };

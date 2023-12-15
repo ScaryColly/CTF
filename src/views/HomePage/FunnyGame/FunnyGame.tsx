@@ -55,7 +55,7 @@ export const FunnyGame: FC<FunnyGameProps> = ({ setIsFunnyGameOver }) => {
         <FunnyQuestion
           {...{
             selectedColor,
-            question: watch("question") || "האם אתה רוצה להיות לוחם?",
+            question: watch("question") || "האם אתה רוצה להמשיך להיות לוחם?",
             yesAction: () => {
               setSelectedMood("sad");
               setValue("question", "סליחה הייתה בעיה בשליחת הטופס, נסה שוב");
