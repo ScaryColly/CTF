@@ -1,4 +1,4 @@
-import { Box, Grid, useTheme } from "@mui/material";
+import { Grid, Stack, useTheme } from "@mui/material";
 import { FC } from "react";
 import { STORY_ONE, STORY_TWO } from "./constants";
 import { getClasses } from "./style";
@@ -8,11 +8,34 @@ export const LevelEight: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Box className={classes.container}>
-      <Grid container className={classes.gridContainer}>
-        <Grid item xs={6}>{STORY_ONE}</Grid>
-        <Grid item xs={6}>{STORY_TWO}</Grid>
+    <Stack className={classes.container}>
+      <Grid
+        container
+        className={classes.gridContainer}
+        rowGap={3}
+        columnGap={3}
+      >
+        <Grid
+          display="flex"
+          justifyContent="center"
+          item
+          xs={12}
+          md={12}
+          lg={6}
+        >
+          {STORY_ONE}
+        </Grid>
+        <Grid
+          display="flex"
+          justifyContent="center"
+          item
+          xs={12}
+          md={12}
+          lg={6}
+        >
+          {STORY_TWO}
+        </Grid>
       </Grid>
-    </Box>
+    </Stack>
   );
 };

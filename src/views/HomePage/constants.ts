@@ -5,5 +5,6 @@ export const ASK =
   "אתה בטח שואל לאן הגעת? הגעת לתפוס את הדגל, יותר נכון תפוס את המתנה לכבוד יום הולדתך";
 export const RULES =
   "בכדי לעבור שלב יש לשנות את סיומת כתובת האתר למעלה בעזרת פתרון החידה של השלב הנוכחי.";
-export const LEVEL_ONE = "עליך כרגע להגיע לשלב הראשון, כלומר level1";
+export const LEVEL_ONE =
+  "עליך כרגע להגיע לשלב הראשון, כלומר https://scarycolly.github.io/CTF/#/level1";
 export const CREDIT = "קרדיט על ההסבר ליואב בלום";

@@ -1,4 +1,4 @@
-import { Box, useTheme } from "@mui/material";
+import { Stack, useTheme } from "@mui/material";
 import { FC } from "react";
 import { Image } from "../../components/Image";
 import tank from "../../assets/images/tank.jpeg";
@@ -10,9 +10,9 @@ export const LevelSeven: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Box className={classes.container}>
-      <Image className={classes.image} src={hamsa} alt='hamsa' />
-      <Image className={classes.image} src={tank} alt='tank' />
-    </Box>
+    <Stack rowGap={3} className={classes.container}>
+      <Image className={classes.image} src={hamsa} alt="hamsa" />
+      <Image className={classes.image} src={tank} alt="tank" />
+    </Stack>
   );
 };

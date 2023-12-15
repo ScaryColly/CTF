@@ -20,9 +20,12 @@ import { LevelThree } from "../../views/LevelThree";
 import { LevelTwelve } from "../../views/LevelTwelve";
 import { LevelTwenty } from "../../views/LevelTwenty";
 import { LevelTwentyOne } from "../../views/LevelTwentyOne";
-import { LevelTwentyTwo } from "../../views/LevelTwentyTwo/LevelTwentyTwo";
 import { LevelTwo } from "../../views/LevelTwo";
 import { Page } from "./types";
+import { LevelTwentyTwo } from "../../views/LevelTwentyTwo";
+import { LevelTwentyThree } from "../../views/LevelTwentyThree";
+import { LevelTwentyFour } from "../../views/LevelTwentyFour";
+import { LevelTwentyFive } from "../../views/LevelTwentyFive";
 
 export const PAGES: Dictionary<Page> = {
   home: {
@@ -117,6 +120,16 @@ export const PAGES: Dictionary<Page> = {
     path: "/something",
     element: () => <LevelTwentyTwo />,
   },
+  levelTwentyThree: {
+    path: "/TheLittlePrince",
+    element: () => <LevelTwentyThree />,
+  },
+  levelTwentyFour: {
+    path: "/bed",
+    element: () => <LevelTwentyFour />,
+  },
+  levelTwentyFive: {
+    path: "/07/11/2019",
+    element: () => <LevelTwentyFive />,
+  },
 };
-
-

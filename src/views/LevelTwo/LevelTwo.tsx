@@ -1,4 +1,4 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Stack, Typography, useTheme } from "@mui/material";
 import { FC } from "react";
 import { getClasses } from "./style";
 import { LEVEL_TWO_TEXT } from "./constants";
@@ -10,9 +10,11 @@ export const LevelTwo: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Box className={classes.container}>
-      <Typography variant='h2'>{LEVEL_TWO_TEXT}</Typography>
-      <Image className={classes.image} src={harryPotter} alt='Harry Potter' />
-    </Box>
+    <Stack className={classes.container}>
+      <Typography className={classes.headline} variant="h2">
+        {LEVEL_TWO_TEXT}
+      </Typography>
+      <Image className={classes.image} src={harryPotter} alt="Harry Potter" />
+    </Stack>
   );
 };

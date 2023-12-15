@@ -3,14 +3,12 @@ import { Theme } from "@mui/material";
 
 export const getClasses = (theme: Theme) => ({
   container: css({
-    background: "#E1B46B",
+    background: "#94d2bd",
     height: "100vh",
-    display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    flexDirection: "column",
     color: theme.palette.common.white,
-    direction: 'ltr'
+    direction: "ltr",
   }),
   image: css({
     height: "80%",

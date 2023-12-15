@@ -5,28 +5,25 @@ export const getClasses = (theme: Theme) => ({
   container: css({
     background: "#E1B46B",
     height: "100vh",
-    display: "flex",
-    justifyContent: "center",
     alignItems: "center",
-    flexDirection: "column",
     color: theme.palette.common.white,
-    direction: 'ltr'
+    direction: "ltr",
   }),
   image: css({
-    width: "60%",
-
+    width: "10rem",
   }),
   gridContainer: css({
-    width: '80%',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center'
+    width: "80%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
   }),
   gridItem: css({
-    display: 'flex',
-    justifyContent: 'center'
+    display: "flex",
+    justifyContent: "center",
   }),
   text: css({
-    width: '90vw'
-  })
+    textAlign: "center",
+    fontSize: "15px",
+  }),
 });

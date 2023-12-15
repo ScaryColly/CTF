@@ -1,4 +1,4 @@
-import { Box, useTheme } from "@mui/material";
+import { Stack, useTheme } from "@mui/material";
 import { FC } from "react";
 import qr from "../../assets/images/qrcode.png";
 import { Image } from "../../components/Image";
@@ -9,8 +9,8 @@ export const LevelFourteen: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Box className={classes.container}>
-      <Image className={classes.image} src={qr} alt='qr' />
-    </Box>
+    <Stack className={classes.container}>
+      <Image className={classes.image} src={qr} alt="qr" />
+    </Stack>
   );
 };

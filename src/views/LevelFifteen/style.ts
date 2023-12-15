@@ -10,17 +10,21 @@ export const getClasses = (theme: Theme) => ({
     alignItems: "center",
     flexDirection: "column",
     color: theme.palette.common.black,
-    direction: 'ltr'
+    direction: "ltr",
   }),
   image: css({
     height: "80%",
   }),
   text: css({
-    marginTop: '2vh',
-    textAlign: 'center'
+    marginTop: "2vh",
+    textAlign: "center",
   }),
   textField: css({
     color: theme.palette.common.black,
-    borderColor: theme.palette.common.white
-  })
+    borderColor: theme.palette.common.white,
+  }),
+  button: css({
+    width: "3rem",
+    height: "3rem",
+  }),
 });

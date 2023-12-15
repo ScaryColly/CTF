@@ -3,28 +3,26 @@ import { Theme } from "@mui/material";
 
 export const getClasses = (theme: Theme) => ({
   container: css({
-    background: '#282C34',
+    background: "#282C34",
     height: "100vh",
-    display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    flexDirection: "column",
     color: theme.palette.common.white,
-    direction: 'ltr'
+    direction: "ltr",
   }),
   image: css({
-    width: "70vw",
+    width: "20rem",
   }),
   bug: css({
-    width: '5vw',
-    position: 'relative',
-    top: '-14vh',
-    transform: 'rotate(45deg)',
+    width: "5vw",
+    position: "relative",
+    top: "-14vh",
+    transform: "rotate(45deg)",
   }),
   hole: css({
-    width: '5vw',
-    position: 'relative',
-    left: '0',
-    bottom: '-2vh'
-  })
+    width: "5vw",
+    position: "relative",
+    left: "0",
+    bottom: "-2vh",
+  }),
 });

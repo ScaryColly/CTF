@@ -1,4 +1,4 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Stack, Typography, useTheme } from "@mui/material";
 import { FC } from "react";
 import songBook from "../../assets/images/songs.png";
 import { Image } from "../../components/Image";
@@ -10,10 +10,12 @@ export const LevelTwentyOne: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Box className={classes.container}>
-      <Typography variant='h2'>{LEVEL_TEXT}</Typography>
-      <Image className={classes.image} src={songBook} alt='song book' />
-      <Typography variant='h2'>{SONG_LINES}</Typography>
-    </Box>
+    <Stack rowGap={3} className={classes.container}>
+      <Typography className={classes.headline} variant="h4">
+        {LEVEL_TEXT}
+      </Typography>
+      <Image className={classes.image} src={songBook} alt="song book" />
+      <Typography variant="h4">{SONG_LINES}</Typography>
+    </Stack>
   );
 };

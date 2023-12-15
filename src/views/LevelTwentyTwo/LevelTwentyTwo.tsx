@@ -1,7 +1,5 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Link, Stack, useTheme } from "@mui/material";
 import { FC } from "react";
-import army from "../../assets/images/army.png";
-import { Image } from "../../components/Image";
 import { getClasses } from "./style";
 
 export const LevelTwentyTwo: FC = () => {
@@ -9,9 +7,10 @@ export const LevelTwentyTwo: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Box className={classes.container}>
-      <Image className={classes.image} src={army} alt='army' />
-      <Typography variant='h2'>HI</Typography>
-    </Box>
+    <Stack className={classes.container}>
+      <Link target="_blank" href="https://www.youtube.com/watch?v=2WN0T-Ee3q4">
+        Never Ending Story
+      </Link>
+    </Stack>
   );
 };

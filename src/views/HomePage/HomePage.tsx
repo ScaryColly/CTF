@@ -1,15 +1,9 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, useTheme } from "@mui/material";
 import { FC, useEffect, useState } from "react";
 import { getClasses } from "./style";
-import {
-  ASK,
-  CREDIT,
-  FINISH_ERA,
-  HAPPY_BIRTHDAY,
-  LEVEL_ONE,
-  RULES,
-} from "./constants";
 import { CandleAnimation } from "../../components/CandleAnimation";
+import { Birthday } from "./Birthday";
+import { FunnyGame } from "./FunnyGame/FunnyGame";
 
 export const HomePage: FC = () => {
   const theme = useTheme();
@@ -17,6 +11,7 @@ export const HomePage: FC = () => {
 
   const [timeLeft, setTimeLeft] = useState<number | null>(5);
   const [isAnimationPlaying, setIsAnimationPlaying] = useState<boolean>(true);
+  const [isFunnyGameOver, setIsFunnyGameOver] = useState(false);
 
   useEffect(() => {
     if (timeLeft === 0) {
@@ -36,25 +31,12 @@ export const HomePage: FC = () => {
   return (
     <Box className={classes.container}>
       {isAnimationPlaying && <CandleAnimation />}
-      {!isAnimationPlaying && (
-        <>
-          <Typography className={classes.headline} variant='h2'>
-            {HAPPY_BIRTHDAY}
-          </Typography>
-          <Typography variant='h5' className={classes.text}>
-            {FINISH_ERA}
-          </Typography>
-          <Typography variant='h5' className={classes.textTwo}>
-            {ASK}
-          </Typography>
-          <Typography variant='h5' className={classes.textThree}>
-            {`${RULES} ${LEVEL_ONE}`}
-          </Typography>
-          <Typography variant='h5' className={classes.textFour}>
-            {CREDIT}
-          </Typography>
-        </>
-      )}
+      {!isAnimationPlaying &&
+        (isFunnyGameOver ? (
+          <Birthday />
+        ) : (
+          <FunnyGame {...{ setIsFunnyGameOver }} />
+        ))}
     </Box>
   );
 };

@@ -1,4 +1,4 @@
-import { Box, useTheme } from "@mui/material";
+import { Stack, useTheme } from "@mui/material";
 import { FC } from "react";
 import heart from "../../assets/images/heart.png";
 import math from "../../assets/images/math.png";
@@ -10,9 +10,12 @@ export const LevelNineteen: FC = () => {
   const classes = getClasses(theme);
 
   return (
-    <Box className={classes.container}>
-      <Image className={classes.image} src={heart} alt='heart' />
-      <Image className={classes.image} src={math} alt='math' />
-    </Box>
+    <Stack
+      direction={{ md: "row", xs: "column" }}
+      className={classes.container}
+    >
+      <Image className={classes.image} src={heart} alt="heart" />
+      <Image className={classes.image} src={math} alt="math" />
+    </Stack>
   );
 };

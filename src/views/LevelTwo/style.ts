@@ -4,13 +4,15 @@ import { css } from "@emotion/css";
 export const getClasses = (theme: Theme) => ({
   container: css({
     background: "#3B4A41",
-    height: "100vh",
-    display: "flex",
-    justifyContent: "center",
     alignItems: "center",
-    flexDirection: "column",
+    padding: theme.spacing(2),
+    height: "100dvh",
   }),
   image: css({
-    height: "80%",
+    width: "15rem",
+  }),
+  headline: css({
+    textAlign: "center",
+    color: theme.palette.common.white,
   }),
 });
